@@ -1,0 +1,15 @@
+*.DS_Store
+*.AppleDouble
+
+*.log
+
+# ignore env file for docker
+env.list
+
+# ignore pycharm project
+*.idea
+
+node_modules
+yarn-error.log
+.vscode
+.npmrc

@@ -1,0 +1,21 @@
+{
+  "name": "@ridecell/eslint-config-react",
+  "version": "1.0.0",
+  "description": "ESLint configuration for Ridecell React apps",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ridecell/web-eslint-config-react.git"
+  },
+  "author": "Jenny Steele",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/Ridecell/web-eslint-config-react#readme",
+  "peerDependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0"
+  }
+}
