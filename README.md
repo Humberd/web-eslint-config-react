@@ -7,7 +7,7 @@ ESLint configuration for Ridecell React apps
 First, install this package, ESLint and the necessary plugins.
 
 ```bash
-npm install --save-dev @ridecell/eslint-config-react babel-eslint@7.2.3 eslint@4.3.0
+npm install --save-dev @ridecell/eslint-config-react babel-eslint@7.2.3 eslint@4.6.1
 eslint-config-airbnb@15.1.0 eslint-plugin-import@2.7.0 eslint-plugin-jsx-a11y@5.1.1 eslint-plugin-react@7.1.0
 ```
 
