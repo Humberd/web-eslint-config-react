@@ -13,8 +13,11 @@
     "no-script-url": "off",
     "react/forbid-prop-types": "off",
     "react/jsx-indent": "off",
+    "react/jsx-sort-props": ["warn", { "noSortAlphabetically": false }],
     "react/jsx-wrap-multilines": "off",
     "react/require-default-props": "off",
-    "semi": ["warn", "never"]
+    "react/sort-prop-types": ["warn"],
+    "semi": ["warn", "never"],
+    "sort-keys": ["warn", "asc", { "natural": true }]
   }
 }
