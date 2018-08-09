@@ -1,6 +1,6 @@
 {
   "name": "@ridecell/eslint-config-react",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "description": "ESLint configuration for Ridecell React apps",
   "main": "index.js",
   "repository": {
