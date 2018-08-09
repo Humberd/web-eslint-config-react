@@ -10,6 +10,7 @@
     "comma-dangle": ["warn", "always-multiline"],
     "import/no-named-as-default": "off",
     "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+    "no-confusing-arrow": "off",
     "no-script-url": "off",
     "react/forbid-prop-types": "off",
     "react/jsx-indent": "off",
