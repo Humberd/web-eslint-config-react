@@ -42,7 +42,7 @@ That's it! You can always override those setting.
 You can add the following 2 commands to your `package.json` scripts
 
  1. `"prettier-changed": "pretty-quick",` - prettifies only the files that were changed
- 2. `"prettier-all": "prettier --write \"**/*.js\""` - prettifies all the files
+ 2. `"prettier-all": "prettier --write \"**/*.{js,jsx}\""` - prettifies all the files
 
 ## Development
 
