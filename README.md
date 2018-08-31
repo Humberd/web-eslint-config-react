@@ -44,6 +44,7 @@ You can add the following 2 commands to your `package.json` scripts
  1. `"prettier-changed": "pretty-quick",` - prettifies only the files that were changed
  2. `"prettier-all": "prettier --write \"**/*.{js,jsx}\""` - prettifies all the files
 
+
 ## Development
 
 To test changes to the lint rules against code, use `npm-link` in a project. [Helpful guide](http://justjs.com/posts/npm-link-developing-your-own-npm-modules-without-tears)
