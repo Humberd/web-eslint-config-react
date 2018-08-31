@@ -4,22 +4,45 @@ ESLint configuration for Ridecell React apps
 
 ## Installation
 
-First, install this package, ESLint and the necessary plugins.
+Run the following command in your project root directory:
 
 ```bash
-npm install --save-dev @ridecell/eslint-config-react babel-eslint@7.2.3 eslint@4.6.1
-eslint-config-airbnb@15.1.0 eslint-plugin-import@2.7.0 eslint-plugin-jsx-a11y@5.1.1 eslint-plugin-react@7.1.0
+yarn add --dev @ridecell/eslint-config-react
 ```
 
-Then create a file named .eslintrc with following contents in the root folder of your project:
+Then you need to create 3 files:
+
+ 1. `.eslintrc` with the following content:
 
 ```json
 {
+  "parser": "babel-eslint",
   "extends": "@ridecell/eslint-config-react"
 }
 ```
 
-That's it! You can override the settings by editing the .eslintrc file.
+ 2. `.prettierrc.js` with the following content:
+
+```javascript
+module.exports = require('@ridecell/eslint-config-react/.prettierrc')
+```
+
+ 3. `.prettierignore` with the following content:
+
+```
+*.json
+node_modules
+dist
+```
+
+That's it! You can always override those setting.
+
+## Prettier
+
+You can add the following 2 commands to your `package.json` scripts
+
+ 1. `"prettier-changed": "pretty-quick",` - prettifies only the files that were changed
+ 2. `"prettier-all": "prettier --write \"**/*.js\""` - prettifies all the files
 
 ## Development
 
